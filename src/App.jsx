@@ -18,7 +18,7 @@ function App() {
 
   useEffect(() => {
     if (isInitialMount.current) {
-      // intial mount don ioverwrite, skip otherwise
+      // intial mount done ioverwrite, skip otherwise
       isInitialMount.current = false;
       return;
     }
